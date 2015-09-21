@@ -1,0 +1,21 @@
+{
+  "name": "angular-app",
+  "version": "0.0.0",
+  "homepage": "http://universal-development.com",
+  "authors": [
+    "Denis <denis@universal-development.com>"
+  ],
+  "description": "Angular app",
+  "license": "Private",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.6",
+    "bootstrap": "~3.3.5"
+  }
+}
