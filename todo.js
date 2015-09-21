@@ -2,13 +2,20 @@ angular.module('todoApp', [])
   .controller('TodoListController', function() {
     var todoList = this;
     todoList.todos = [
-      {text:'learn angular', done:true},
-      {text:'build an angular app', done:false}];
+      {text:'item1', done:true},
+      {text:'item2', done:false},
+      {text:'item3', done:false},
+      {text:'item4', done:true}
+    ];
+
 
     todoList.addTodo = function() {
       todoList.todos.push({text:todoList.todoText, done:false});
       todoList.todoText = '';
     };
+
+
+
 
     todoList.remaining = function() {
       var count = 0;
